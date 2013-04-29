@@ -1,0 +1,17 @@
+/*******************************************************************************
+ * Copyright (c) 2011, eosgarden
+ * All rights reserved
+ ******************************************************************************/
+ 
+ /*!
+  * @file   Localizable.strings
+  * @author Jean-David Gadina <macmade@eosgarden.com>
+  */
+
+/* $Id$ */
+
+"Quit"               = "Quit";
+"DeviceErrorTitle"   = "Unsupported Device";
+"DeviceErrorMessage" = "Your device does not have a built-in LED flash. The application will now quit.";
+"Edit"               = "Edit";
+"Done"               = "Done";

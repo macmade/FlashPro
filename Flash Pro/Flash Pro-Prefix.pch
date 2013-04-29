@@ -1,0 +1,23 @@
+/*******************************************************************************
+ * Copyright (c) 2011, eosgarden
+ * All rights reserved
+ ******************************************************************************/
+ 
+ /*!
+  * @file   Flash-Pro-Prefix.pch
+  * @author Jean-David Gadina <macmade@eosgarden.com>
+  */
+
+/* $Id$ */
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iPhone SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <AVFoundation/AVFoundation.h>
+#endif
