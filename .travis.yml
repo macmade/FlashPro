@@ -1,3 +1,4 @@
 language: objective-c
 xcode_project: Flash Pro.xcodeproj
 xcode_scheme: Flash Pro
+xcode_sdk: iphonesimulator
